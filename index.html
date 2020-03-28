@@ -5,11 +5,232 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> MendaxLab | Home </title>
+	<title>Mendax Science Lab &#124; Home</title>
+	<link href="node_modules/materialize-css/dist/css/materialize.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<style>
+		body {
+			font-family: "Open Sans", sans-serif;
+			font-weight: 400;
+		}
+
+		b,
+		strong,
+		.bold .b .strong {
+			font-weight: 700;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: "Cairo", sans-serif;
+		}
+
+		/* main {
+			padding-top: 56px;
+		}
+
+		@media only screen and (min-width: 601px) {
+			main {
+				padding-top: 64px;
+			}
+		} */
+		.slider .indicators .indicator-item.active {
+			background: #3f51b5;
+		}
+	</style>
 </head>
 
 <body>
+	<header>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper indigo">
+					<div class="container">
+						<a href="#!" class="brand-logo">Mendax</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#about" data-easing="easeInOutQuint">About</a></li>
+							<li><a href="#portfolio" data-easing="easeInOutQuint">Portfolio</a></li>
+							<li><a href="#contact" data-easing="easeInOutQuint">Contact</a></li>
+							<li><a href="#team" data-easing="easeInOutQuint">Team</a></li>
+							<li><a href="/blog" target="_blank">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
-</body>
+			<ul class="sidenav" id="mobile-demo">
+				<li><a href="#about" data-easing="easeInOutQuint">About</a></li>
+				<li><a href="#portfolio" data-easing="easeInOutQuint">Portfolio</a></li>
+				<li><a href="#contact" data-easing="easeInOutQuint">Contact</a></li>
+				<li><a href="#team" data-easing="easeInOutQuint">Team</a></li>
+				<li><a href="/blog" target="_blank">Blog</a></li>
+			</ul>
+		</div>
 
-</html>
+		<div class="slider">
+			<ul class="slides">
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+					<div class="caption center-align">
+						<h3>Welcome to Mendax Science Lab</h3>
+						<h5 class="light grey-text text-lighten-3">A not very sizable organization of inexperienced pondering individuals with a sole microscope performing indiscriminate biological experiments.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+					<div class="caption left-align">
+						<h3>Check out our team</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+					<div class="caption right-align">
+						<h3>Right Aligned Caption</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+					<div class="caption center-align">
+						<h3>This is our big Tagline!</h3>
+						<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<main class="container">
+		<!-- Main Content -->
+		<section id="about">
+			<h1>About us</h1>
+			<p class="flow-text">Mendax Science Labs was founded by Enco Contrucci in 2020 after a career switch from application development into virologist.</p>
+			<p>Since then we have concluded multiple experiments you can find more on our portfolio section below here.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum integer enim neque volutpat ac tincidunt vitae. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Et ultrices neque ornare aenean. Cursus in hac habitasse platea dictumst quisque. Suspendisse in est ante in nibh. Aliquam faucibus purus in massa tempor nec feugiat nisl. Semper eget duis at tellus at. Est ante in nibh mauris cursus mattis molestie. At volutpat diam ut venenatis. Bibendum neque egestas congue quisque egestas. Dictum fusce ut placerat orci nulla. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Viverra ipsum nunc aliquet bibendum enim facilisis. Nisl condimentum id venenatis a condimentum vitae. Maecenas accumsan lacus vel facilisis volutpat est velit. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Metus aliquam eleifend mi in nulla posuere sollicitudin. Integer feugiat scelerisque varius morbi enim nunc faucibus a.</p>
+		</section>
+		<section id="portfolio">
+			<h1>Portfolio</h1>
+			<p class="flow-text">Check out our top projects we've created over the past year</p>
+			<div class="row">
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="gallery" href="http://placehold.it/1920x1080"><img src="http://placehold.it/858x480" class="responsive-img"></a>
+				</div>
+			</div>
+		</section>
+		<section id="team">
+			<h1>Our team</h1>
+			<p class="flow-text">Meet the Mendax Crew</p>
+			<div class="row">
+				<div class="col s12 m4">
+					<a data-fancybox="team" href="http://placehold.it/1080x1080"><img src="http://placehold.it/500x500" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="team" href="http://placehold.it/1080x1080"><img src="http://placehold.it/500x500" class="responsive-img"></a>
+				</div>
+				<div class="col s12 m4">
+					<a data-fancybox="team" href="http://placehold.it/1080x1080"><img src="http://placehold.it/500x500" class="responsive-img"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<a data-fancybox="team" href="http://placehold.it/1080x1080"><img src="http://placehold.it/500x500" class="responsive-img"></a>
+				</div>
+			</div>
+		</section>
+		<section id="team">
+			<h1>Contact us</h1>
+			<p class="flow-text">You can contact us by filling in this form</p>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePqVAGwlmU4gyc9tGOqJhXoeLEWKU8erIpbGSGF4BlwHwLlQ/viewform?embedded=true" width="100%" height="960" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
+		</section>
+	</main>
+	<footer class="page-footer indigo">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Mendax Science Labs</h5>
+					<p class="grey-text text-lighten-4">A not very sizable organization of inexperienced pondering individuals with a sole microscope performing indiscriminate biological experiments.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Our Socials</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="https://www.facebook.com/mendaxscience/"><i class="fab fa-facebook-square">&nbsp;</i>Facebook</a></li>
+						<li><a class="grey-text text-lighten-3" href="https://twitter.com/Mendaxscience"><i class="fab fa-twitter">&nbsp;</i>Twitter</a></li>
+						<li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UCaUOlr4OyagQ7CbN51DxbeA/featured"><i class="fab fa-youtube">&nbsp;</i>YouTube</a></li>
+						<li><a class="grey-text text-lighten-3" href="https://www.instagram.com/mendaxlab/"><i class="fab fa-instagram">&nbsp;</i>Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright indigo darken-2">
+			<div class="container">
+				© 2020 Mendax Science Lab
+				<a class="grey-text text-lighten-4 right" href="//foxstudiolabs.github.io">Design by FoxStudioLabs</a>
+			</div>
+		</div>
+	</footer>
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script>
+		//Initializing Materialize
+		$(document).ready(function() {
+			$('.carousel').carousel(); //Carousel
+			$('.slider').slider({
+				height: 720,
+				indicators: true,
+				duration: 600,
+				interval: 6500
+			}); //Slider
+			$('.sidenav').sidenav(); //Sidenav
+		});
+		//Initializing FancyBox
+		$('[data-fancybox="gallery"]').fancybox({
+			buttons: [
+				'slideShow',
+				'share',
+				'zoom',
+				'fullScreen',
+				'close'
+			],
+			thumbs: {
+				autoStart: true
+			}
+		});
+	</script>
+</body></html>
